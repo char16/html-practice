@@ -1,0 +1,18 @@
+To create a repository:
+ls //list all files
+cd // Change dir
+git init 
+git remote add origin [gitLink]
+git remote -v
+git add .// to add single file use git add filename
+git commit -m "First commit"
+git push origin master
+
+TO SEE BRANCHES:
+git fetch --all
+
+BRANCHING:
+git branch branchname // create
+git branch checkout
+git branch -b branchname // create & checkout
+git branch -d branchname // deletion
