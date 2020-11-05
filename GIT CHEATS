@@ -11,8 +11,15 @@ git push origin master
 TO SEE BRANCHES:
 git fetch --all
 
+DELETION OF ALL FILES
+git clean -fd
+
 BRANCHING:
 git branch branchname // create
 git checkout branchname // to point 
 git branch -b branchname // create & checkout
 git branch -d branchname // deletion
+
+FOR SYNCING OF LOCAL AND REMOTE:
+git pull origin branchname
+git push origin branchname
