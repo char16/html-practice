@@ -13,6 +13,6 @@ git fetch --all
 
 BRANCHING:
 git branch branchname // create
-git branch checkout
+git checkout branchname // to point 
 git branch -b branchname // create & checkout
 git branch -d branchname // deletion
